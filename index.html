@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./main.css'>
+    <script src="calculatrice.js"></script>
+</head>
+
+<body>
+    <h2>CALCULATRICE</h2>
+    <div class="container">
+        <div class="row">
+            <div class="contenu">
+                <p> <input id="input1"></p>
+
+                <p>
+
+                    <ul><button id="sept" value="7 " onclick="ajouter('7')">7</button>
+                        <button id="huit" value="8" onclick="ajouter('8')">8</button>
+                        <button id="neuf" value="9 " onclick="ajouter('9')">9</button>
+                        <button id="division" value="/" onclick="ajouter('/')">/</button></ul>
+                    <ul> <button id="quatre" value="4" onclick="ajouter('4')">4</button>
+                        <button id="cinq" value="5" onclick="ajouter('5')">5</button>
+                        <button id="six" value="6" onclick="ajouter('6')">6</button>
+                        <button id="multiplication" value="*" onclick="ajouter('*')">*</button></ul>
+                    <ul> <button id="un" value="1" onclick="ajouter('1')">1</button>
+                        <button id="deux" value="2" onclick="ajouter('2')">2</button>
+                        <button id="trois" value="3" onclick="ajouter('3')">3</button>
+                        <button id="soustraction" value="-" onclick="ajouter('-')">-</button></ul>
+                    <ul> <button id="zero" value="0" onclick="0">0</button>
+                        <button id="virgulle" value="," onclick="ajouter(',')">,</button>
+                        <button id="addition" value="+" onclick="ajouter('+')">+</button>
+                        <button id="rslt" value="=" onclick="resultat()"> = </button></ul>
+
+
+
+
+
+
+                </p>
+            </div>
+
+        </div>
+        <div class="row">
+            <p class="resultat">
+                <ul id="historique"></ul>
+            </p>
+        </div>
+
+        </div>
+        
+
+
+</body>
+
+</html>

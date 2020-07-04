@@ -1,0 +1,76 @@
+#input1 {
+width: 200px;
+    font-weight: 50px;
+    padding: 12px;
+    border:solid rgb(166, 114, 250);
+}
+
+#sept {
+    width:40px;
+
+    padding: 10px;
+}
+
+
+    #huit {width: 40px;
+        padding: 10px;
+    }
+
+    #neuf {width: 40px;
+        padding: 10px;
+    }
+
+    #division {width: 40px;
+        padding: 10px;
+
+    }
+
+    #quatre {width:40px;
+        padding: 10px;
+    }
+
+    #cinq {width:40px;
+        padding: 10px;
+    }
+
+    #six {width:40px;
+        padding: 10px;
+    }
+
+    #multiplication {width:40px;
+        padding: 10px;
+    }
+
+    #un {width:40px;
+        padding: 10px;
+    }
+
+    #deux {width:40px;
+        padding: 10px;
+    }
+    #trois {width:40px;
+        padding: 10px;
+    }
+     #soustraction {width:40px;
+        padding: 10px;  
+     }
+     #zero{width:40px;
+
+        padding: 10px;
+     }
+     #virgulle{width:40px;
+        padding: 10px;
+     }
+     #addition{width:40px;
+        padding: 10px;
+     }
+     #rslt{
+        width:40px;
+        padding: 10px;
+     }
+     .row{
+width: 25%;
+
+        background: rgb(126, 82, 161);
+     }
+    
